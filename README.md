@@ -4,7 +4,7 @@ A new Flutter project.
 
 ## Screenshot
 
-![App Screenshot](screenshot/screenshot.png)
+<img src="screenshot/screenshot.png" alt="App Screenshot" width="400" />
 
 ## Project Information
 
