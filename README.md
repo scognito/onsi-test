@@ -2,11 +2,12 @@
 
 A new Flutter project.
 
-## Notes
+## Project Information
 
 ### Simulated Network Requests
 
 - Network requests are simulated to mimic server interactions
+- Data models are created to represent the response from the server
 
 ### Translation Handling
 

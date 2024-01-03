@@ -18,7 +18,7 @@ class CashbackView extends StatelessWidget {
       children: [
         const Text(
           'Cashback',
-          style: AppText.poppins15Bold,
+          style: AppText.poppins16Bold,
         ),
         const SizedBox(height: 12),
         Container(
@@ -32,11 +32,11 @@ class CashbackView extends StatelessWidget {
             children: [
               Text(
                 'Total saved',
-                style: AppText.poppins14Medium.copyWith(color: AppColors.greenDark),
+                style: AppText.poppins15Medium.copyWith(color: AppColors.greenDark),
               ),
               Text(
                 '${dataModel.currency}${dataModel.cashback.toStringAsFixed(2)}',
-                style: AppText.poppins15Bold.copyWith(color: AppColors.greenDark),
+                style: AppText.poppins16Bold.copyWith(color: AppColors.greenDark),
               ),
             ],
           ),

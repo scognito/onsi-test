@@ -52,7 +52,7 @@ class DataModel {
           currentBalance: 562.09,
         ),
         TransactionModel(
-          type: TransactionType.credit,
+          type: TransactionType.charge,
           name: 'Tesco',
           date: DateTime(2023, 10, 28, 16, 06, 0),
           amount: -30,

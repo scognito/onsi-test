@@ -22,7 +22,7 @@ class BalanceView extends StatelessWidget {
         ),
         Text(
           '${dataModel.currency}${dataModel.balance.toString()}',
-          style: AppText.poppins34Medium,
+          style: AppText.poppins34Semibold,
         ),
       ],
     );

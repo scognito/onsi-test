@@ -20,7 +20,7 @@ class TransactionsView extends StatelessWidget {
       children: [
         const Text(
           'Transactions',
-          style: AppText.poppins15Bold,
+          style: AppText.poppins16Bold,
         ),
         ...dataModel.transactions.map(
           (transaction) => TransactionRowView(
@@ -78,7 +78,7 @@ class TransactionRowView extends StatelessWidget {
                     ),
                     Text(
                       '${transaction.currency}${transaction.currentBalance.toStringAsFixed(2)}',
-                      style: AppText.poppins12Medium.copyWith(color: AppColors.greyDark),
+                      style: AppText.poppins11Semibold.copyWith(color: AppColors.greyDark),
                     ),
                   ],
                 )

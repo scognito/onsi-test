@@ -2,6 +2,11 @@ import 'package:flutter/material.dart';
 
 class AppText {
 
+  static const poppins11Semibold = TextStyle(
+    fontSize: 11,
+    fontWeight: FontWeight.w600,
+  );
+
   static const poppins12Medium = TextStyle(
     fontSize: 12,
     fontWeight: FontWeight.w500,
@@ -17,9 +22,9 @@ class AppText {
     fontWeight: FontWeight.w600,
   );
 
-  static const poppins14Medium = TextStyle(
+  static const poppins14Semibold = TextStyle(
     fontSize: 14,
-    fontWeight: FontWeight.w500,
+    fontWeight: FontWeight.w600,
   );
 
   static const poppins14Bold = TextStyle(
@@ -27,9 +32,14 @@ class AppText {
     fontWeight: FontWeight.w700,
   );
 
-  static const poppins15Bold = TextStyle(
-    fontSize: 15,
+  static const poppins16Bold = TextStyle(
+    fontSize: 16,
     fontWeight: FontWeight.w700,
+  );
+
+  static const poppins15Medium = TextStyle(
+    fontSize: 15,
+    fontWeight: FontWeight.w500,
   );
 
   static const poppins17Semibold = TextStyle(
@@ -42,8 +52,8 @@ class AppText {
     fontWeight: FontWeight.w500,
   );
 
-  static const poppins34Medium = TextStyle(
+  static const poppins34Semibold = TextStyle(
     fontSize: 34,
-    fontWeight: FontWeight.w500,
+    fontWeight: FontWeight.w600,
   );
 }

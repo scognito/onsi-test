@@ -31,7 +31,7 @@ class ButtonView extends StatelessWidget {
       ),
       child: Text(
         text,
-        style: AppText.poppins13Semibold.copyWith(color: textColor),
+        style: AppText.poppins14Semibold.copyWith(color: textColor),
       ),
     );
   }
