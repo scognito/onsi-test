@@ -2,6 +2,10 @@
 
 A new Flutter project.
 
+## Screenshot
+
+![App Screenshot](screenshot/screenshot.png)
+
 ## Project Information
 
 ### Simulated Network Requests
